@@ -86,15 +86,15 @@
 }
 
 .carousel-indicators{
-    border: 2px solid red !important;
+    /* border: 2px solid red !important; */
 
     gap: 0.7rem;
 }
 
 .carousel-indicators button{
     background-color: var(--primary-color) !important;
-    padding: 0.3rem !important;
-    width: 3rem !important;
+    padding: 0.1rem !important;
+    width: 2rem !important;
 }
 
 /* ABOUT */
@@ -102,4 +102,17 @@
 section#about{
     height: 100vh;
     background-color: var(--secondary-color !important);
+}
+
+.image-container img{
+    width: 100%;
+}
+
+.about-image-info{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.504), rgba(188, 108, 37, 1));
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
