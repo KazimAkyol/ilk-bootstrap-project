@@ -48,8 +48,31 @@
 }
 
 .carousel-caption{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     bottom: 40%;
+}
+
+.carousel-caption .btn{
+    background-color: var(--primary-color) !important;
+    border: none;
+    width: 10rem;
+    color: white;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.carousel-caption .btn:first-child{
+    background-color: transparent !important;
+}
+
+.carousel-caption .btn:first-child:hover{
+    background-color: white !important;
+    color: black;
+}
+
+.hero{
+    position: relative;
+    z-index: 3;
 }
 
 .black{
@@ -57,6 +80,7 @@
     height: 500px;
     background-color: rgba(0, 0, 0, 0.838);
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(40deg);
 }
