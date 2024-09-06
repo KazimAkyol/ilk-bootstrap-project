@@ -5,5 +5,7 @@
 }
 
 nav navbar-nav{
-    float: right;
+    display: grid;
+    justify-content: end;
+    align-items: end;
 }
