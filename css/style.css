@@ -100,12 +100,16 @@
 /* ABOUT */
 
 section#about{
-    height: 100vh;
-    background-color: var(--secondary-color !important);
+    /* height: 100vh; */
+    background-color: var(--secondary-color) !important;
 }
 
 .image-container img{
     width: 100%;
+}
+
+.image-container{
+    position: relative;
 }
 
 .about-image-info{
@@ -115,4 +119,9 @@ section#about{
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+section#about button{
+    background-color: var(--primary-color);
+    border: none;
 }
