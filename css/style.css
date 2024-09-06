@@ -84,3 +84,10 @@
     left: 50%;
     transform: translate(-50%, -50%) rotate(40deg);
 }
+
+/* ABOUT */
+
+section#about{
+    height: 100vh;
+    background-color: var(--secondary-color !important);
+}
