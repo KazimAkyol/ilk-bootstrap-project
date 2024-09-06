@@ -85,6 +85,18 @@
     transform: translate(-50%, -50%) rotate(40deg);
 }
 
+.carousel-indicators{
+    border: 2px solid red !important;
+
+    gap: 0.7rem;
+}
+
+.carousel-indicators button{
+    background-color: var(--primary-color) !important;
+    padding: 0.3rem !important;
+    width: 3rem !important;
+}
+
 /* ABOUT */
 
 section#about{
