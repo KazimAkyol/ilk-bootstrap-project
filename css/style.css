@@ -13,6 +13,13 @@
 
 .navbar{
     background-color: transparent !important;
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+}
+
+.navbar .container{
+    background-color: rgba(0, 0, 0, 0.7) !important;
 }
 
 .navbar-nav{
@@ -26,4 +33,30 @@
 
 .nav-link:hover{
     color: var(--primary-color);
+}
+
+/* Carousel */
+
+.carousel-item{
+    height: 100vh;
+    position: relative;
+}
+
+.carousel-item img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption{
+    border: 2px solid red;
+    bottom: 40%;
+}
+
+.black{
+    width: 450px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.838);
+    position: absolute;
+    top: 0;
+    left: 0;
 }
