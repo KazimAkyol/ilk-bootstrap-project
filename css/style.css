@@ -1,11 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-nav navbar-nav{
-    display: grid;
-    justify-content: end;
-    align-items: end;
+
+*{
+    font-family: "Plus Jakarta Sans", sans-serif
 }
