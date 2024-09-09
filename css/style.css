@@ -180,6 +180,7 @@ section#menu .container {
 section#menu button {
   background-color: var(--secondary-color) !important;
   margin-right: 1rem;
+  color: var(--primary-color);
 }
 
 .header-menu{
