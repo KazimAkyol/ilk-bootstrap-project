@@ -1,174 +1,187 @@
-:root{
-    --primary-color:#bc6c25;
-    --secondary-color:#4d3822;
-    --hover-color:#e76f51;
-    --section-color:#b78752;
+:root {
+  --primary-color: #bc6c25;
+  --secondary-color: #4d3822;
+  --hover-color: #e76f51;
+  --section-color: #b78752;
 }
 
-*{
-    font-family: "Plus Jakarta Sans", sans-serif
+* {
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 /* NAVBAR */
 
-.navbar{
-    background-color: transparent !important;
-    position: fixed;
-    z-index: 5;
-    width: 100%;
+.navbar {
+  background-color: transparent !important;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
 }
 
-.navbar .container{
-    background-color: rgba(0, 0, 0, 0.7) !important;
+.navbar .container {
+  background-color: rgba(0, 0, 0, 0.7) !important;
 }
 
-.navbar-nav{
-    font-size: 1.3rem;
-    font-weight: bold;
+.navbar-nav {
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
-.nav-link{
-    color: white;
+.nav-link {
+  color: white;
 }
 
-.nav-link:hover{
-    color: var(--primary-color);
+.nav-link:hover {
+  color: var(--primary-color);
 }
 
 /* Carousel */
 
-.carousel-item{
-    height: 100vh;
-    position: relative;
+.carousel-item {
+  height: 100vh;
+  position: relative;
 }
 
-.carousel-item img{
-    height: 100%;
-    object-fit: cover;
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
 }
 
-.carousel-caption{
-    /* border: 2px solid red; */
-    bottom: 40%;
+.carousel-caption {
+  /* border: 2px solid red; */
+  bottom: 40%;
 }
 
-.carousel-caption .btn{
-    background-color: var(--primary-color) !important;
-    border: none;
-    width: 10rem;
-    color: white;
-    white-space: nowrap;
-    font-weight: bold;
+.carousel-caption .btn {
+  background-color: var(--primary-color) !important;
+  border: none;
+  width: 10rem;
+  color: white;
+  white-space: nowrap;
+  font-weight: bold;
 }
 
-.carousel-caption .btn:first-child{
-    background-color: transparent !important;
+.carousel-caption .btn:first-child {
+  background-color: transparent !important;
 }
 
-.carousel-caption .btn:first-child:hover{
-    background-color: white !important;
-    color: black;
+.carousel-caption .btn:first-child:hover {
+  background-color: white !important;
+  color: black;
 }
 
-.hero{
-    position: relative;
-    z-index: 3;
+.hero {
+  position: relative;
+  z-index: 3;
 }
 
-.black{
-    width: 450px;
-    height: 500px;
-    background-color: rgba(0, 0, 0, 0.838);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(40deg);
+.black {
+  width: 450px;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.838);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(40deg);
 }
 
-.carousel-indicators{
-    /* border: 2px solid red !important; */
+.carousel-indicators {
+  /* border: 2px solid red !important; */
 
-    gap: 0.7rem;
+  gap: 0.7rem;
 }
 
-.carousel-indicators button{
-    background-color: var(--primary-color) !important;
-    padding: 0.1rem !important;
-    width: 2rem !important;
+.carousel-indicators button {
+  background-color: var(--primary-color) !important;
+  padding: 0.1rem !important;
+  width: 2rem !important;
 }
 
 /* ABOUT */
 
-section#about{
-    /* height: 100vh; */
-    background-color: var(--secondary-color) !important;
+section#about {
+  /* height: 100vh; */
+  background-color: var(--secondary-color) !important;
 }
 
-.image-container img{
-    width: 100%;
+.image-container img {
+  width: 100%;
 }
 
-.image-container{
-    position: relative;
+.image-container {
+  position: relative;
 }
 
-.about-image-info{
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.504), rgba(188, 108, 37, 1));
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+.about-image-info {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.504),
+    rgba(188, 108, 37, 1)
+  );
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-section#about button{
-    background-color: var(--primary-color);
-    border: none;
+section#about button {
+  background-color: var(--primary-color);
+  border: none;
 }
 
 /* People */
 
-section#people{
-    /* height: 100vh; */
-    background-color: var(--section-color);
+section#people {
+  /* height: 100vh; */
+  background-color: var(--section-color);
 }
 
 section#people .container {
-    background-color: var(--secondary-color);
+  background-color: var(--secondary-color);
 }
 
-section#people .container{
-    background-color: var(--secondary-color);
+section#people .container {
+  background-color: var(--secondary-color);
 }
 
-section#people .card{
-    background-color: var(--primary-color);
-    transition: all 0.5s;
-    overflow: hidden;
-}
-    
-section#people .card{
-    transform: scale(1.05);
+section#people .card {
+  background-color: var(--primary-color);
+  transition: all 0.5s;
+  overflow: hidden;
 }
 
-section#people .card img:hover{
-    transform: scale(1.1);
+section#people .card {
+  transform: scale(1.05);
 }
 
-section#people i{
-    transition: all 0.5s;
+section#people .card img:hover {
+  transform: scale(1.1);
 }
 
-section#people i:hover{
-    opacity: .5;
+section#people i {
+  transition: all 0.5s;
+}
+
+section#people i:hover {
+  opacity: 0.5;
 }
 
 /* MENU */
 
-section#menu{
-    background-color: var(--secondary-color);
+section#menu {
+  background-color: var(--secondary-color);
 }
 
-section#menu .container{
-    background-color: var(--primary-color);
+section#menu .container {
+  background-color: var(--primary-color);
+}
+
+section#menu button {
+  background-color: var(--secondary-color) !important;
+  margin-right: 1rem;
+}
+
+.header-menu{
+    color: var(--primary-color);
 }
