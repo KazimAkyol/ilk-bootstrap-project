@@ -162,3 +162,13 @@ section#people i{
 section#people i:hover{
     opacity: .5;
 }
+
+/* MENU */
+
+section#menu{
+    background-color: var(--secondary-color);
+}
+
+section#menu .container{
+    background-color: var(--primary-color);
+}
