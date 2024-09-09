@@ -180,9 +180,42 @@ section#menu .container {
 section#menu button {
   background-color: var(--secondary-color) !important;
   margin-right: 1rem;
-  color: var(--primary-color);
+  color: var();
 }
 
 .header-menu{
     color: var(--primary-color);
+}
+
+/* CONTACT */
+
+section#contact{
+    background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.504),
+    rgba(188, 108, 37, 1)
+  ),url(../img/slider2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+section#contact input,
+section#contact textarea{
+    background: inherit;
+}
+
+input::placeholder{
+    color: white !important;
+}
+
+label{
+    color: white;
+}
+
+.google-map{
+    filter: grayscale(100);
+}
+
+footer{
+    background-color: var(--primary-color);
 }
