@@ -125,3 +125,10 @@ section#about button{
     background-color: var(--primary-color);
     border: none;
 }
+
+/* People */
+
+section#people{
+    /* height: 100vh; */
+    background-color: var(--section-color);
+}
